@@ -1,0 +1,45 @@
+input[type="text"] {
+    width: 250px;
+    height: 27px;
+    border-radius: 5px;
+    outline: none
+}
+
+.btn {
+    font-size: 1rem;
+    padding: 5px;
+    width: 80px
+}
+
+.todoitem {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list {
+    width: 350px;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0
+}
+
+.hide {
+    display: none
+}
+
+.itemdata {
+    flex-basis: 50%;
+    text-align: left;
+
+}
+
+.textDecoration {
+    text-decoration: line-through
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+}
