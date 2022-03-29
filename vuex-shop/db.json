@@ -1,0 +1,52 @@
+{
+  "product": [
+    {
+      "userId": 1,
+      "id": 1,
+      "title": "Sandip Choraghe",
+      "body": "hi, I am a Front End Developer , and I have 5 year of experince in develpement"
+    },
+    {
+      "userId": 1,
+      "id": 2,
+      "title": "Ramesh Borede",
+      "body": "hi, I am a C++ Developer , and I have 5 year of experince in develpement"
+    },
+    {
+      "userId": 1,
+      "id": 3,
+      "title": "Rahul Dev",
+      "body": "hi, I am a S/W Developer , and I have 5 year of experince in develpement"
+    },
+    {
+      "userId": 1,
+      "id": 4,
+      "title": "Nikita",
+      "body": "hi, I am a UI and Front End Developer , and I have 4 year of experince in develpement"
+    },
+    {
+      "userId": 1,
+      "id": 5,
+      "title": "Sandip Choraghe",
+      "body": "hi, I am a Front End Developer , and I have 5 year of experince in develpement"
+    },
+    {
+      "userId": 1,
+      "title": "Rohan Rao",
+      "body": "Hi, i am game developer, with 6 year experience",
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "title": "saksham",
+      "body": "Hi, i am Java developer, with 6 year experience",
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "title": "Ramesh",
+      "body": "Hi, i am game developer, with 6 year experience",
+      "id": 8
+    }
+  ]
+}

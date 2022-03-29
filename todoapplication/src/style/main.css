@@ -1,0 +1,287 @@
+body{
+
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+/* header Comp */
+nav li.router-link-active,
+nav li.router-link-exact-active {
+  background-color: indianred;
+  cursor: pointer;
+}
+
+/* main App */
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+/* login */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+
+/* register */
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* home Component */
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* todo app */
+.finish {
+  text-decoration: line-through;
+}
+
+/* weather app */
+.stretch-card > .card {
+  width: 33rem;
+  min-width: 100%;
+}
+
+body {
+  background-color: #f9f9fa;
+}
+
+.flex {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+@media (max-width: 991.98px) {
+  .padding {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .padding {
+    padding: 1rem;
+  }
+}
+
+.padding {
+  padding: 5rem;
+}
+
+.grid-margin,
+.purchace-popup > div {
+  margin-bottom: 25px;
+}
+
+.card {
+  border: 0;
+  border-radius: 2px;
+}
+
+.card-weather {
+  background: #e1ecff;
+  background-image: linear-gradient(
+    to left bottom,
+    #d6eef6,
+    #dff0fa,
+    #e7f3fc,
+    #eff6fe,
+    #f6f9ff
+  );
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.card-weather .card-body:first-child {
+  background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1557323760/weather.svg)
+    no-repeat center;
+  background-size: cover;
+}
+
+.card .card-body {
+  padding: 14px;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.card-weather .weather-date-location {
+  padding: 0 0 38px;
+}
+
+.h3,
+h3 {
+  font-size: 1.56rem;
+}
+
+.text-gray,
+.card-subtitle,
+.new-accounts ul.chats li.chat-persons a p.joined-date {
+  color: #969696;
+}
+
+p {
+  font-size: 16px;
+}
+
+.text-gray,
+.card-subtitle,
+.new-accounts ul.chats li.chat-persons a p.joined-date {
+  color: #969696;
+}
+
+.card-weather .weather-data {
+  padding: 0 0 4.75rem;
+}
+
+.mr-auto,
+.mx-auto {
+  margin-right: auto !important;
+}
+
+.display-1 {
+  font-size: 7rem;
+  font-weight: 600;
+}
+
+.card-weather .card-body {
+  background: #ffffff;
+}
+
+.card-weather .weakly-weather {
+  background: #ffffff;
+  overflow-x: auto;
+}
+
+.card-weather .weakly-weather .weakly-weather-item {
+  flex: 1;
+  border-right: 1px solid #f2f2f2;
+  padding: 1rem;
+  text-align: center;
+}
+
+.mb-0,
+.my-0 {
+  margin-bottom: 0 !important;
+}
+
+.card-weather .weakly-weather .weakly-weather-item i {
+  font-size: 1.2rem;
+}
+
+svg {
+  font-size: 3rem;
+  color: grey;
+}
+
+.rain::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f73d";
+  display: inline-block;
+  padding-right: 3px;
+  vertical-align: middle;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.cloud::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f743";
+  display: inline-block;
+  padding-right: 3px;
+  vertical-align: middle;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.haze::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f75f";
+  display: inline-block;
+  padding-right: 3px;
+  vertical-align: middle;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.clear::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f185";
+  display: inline-block;
+  padding-right: 3px;
+  vertical-align: middle;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+
+form.user .form-control-user {
+  font-size: 1rem;
+  border-radius: 10rem;
+  padding: 1.5rem 1rem;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #6e707e;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #d1d3e2;
+  border-radius: 0.35rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+form.user .btn-user {
+  font-size: 1rem;
+  border-radius: 10rem;
+  padding: 0.75rem 1rem;
+}
+.btn-block {
+  display: block;
+  width: 100%;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #4e73df;
+  border-color: #4e73df;
+}
